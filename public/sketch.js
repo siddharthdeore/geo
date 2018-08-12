@@ -1,6 +1,6 @@
 var socket;
 
-socket = io.connect('http://192.168.1.110:3000');
+socket = io.connect('http://geo.siroi.co.in:'+process.env.PORT);
 socket.on('UpdateOthers', UpdateOthers);
 socket.on('newUser', newUser);
 socket.on('userLeft', userLeft);
