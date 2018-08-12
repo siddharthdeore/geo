@@ -1,1 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
+<head>
+	<style type="text/css">
+	html, body {
+		margin: 0px;
+		background-color: #FFF;
+		overflow-y: hidden;
+	}
+	#earth_div{top: 0; right: 0; bottom: 0; left: 0;
+		background-color: #000; position: absolute !important;}
+	</style>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+	<script src="http://www.webglearth.com/v2/api.js"></script>
+	<script src="sketch.js"></script>
+
+</head>
+<body onload="initialize()">
+	<div id="earth_div"></div>
+</body>
+</html>
